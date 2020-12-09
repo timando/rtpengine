@@ -18,6 +18,7 @@ BuildRequires:	xmlrpc-c-devel zlib-devel hiredis-devel
 BuildRequires:	libpcap-devel libevent-devel json-glib-devel 
 BuildRequires:	gperf perl-IPC-Cmd
 BuildRequires:  pkgconfig(spandsp)
+BuildRequires:  libwebsockets-devel
 Requires(pre):	shadow-utils
 
 %if 0%{?with_transcoding} > 0
